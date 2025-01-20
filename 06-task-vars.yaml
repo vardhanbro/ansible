@@ -6,11 +6,11 @@
     DURATION: 2 months
     TRAINER: siva
 
-  tasks:
+  tasks: 1
     - name: Print the variable 
       anisble.builtin.debug:
         msg: "Course is {{ COURSE }},Duration is {{ DURATION }},Trainer is {{ TRAINER }}"
-  tasks:
+  tasks: 2
     - name: Print variable 
       vars:
         COURSE: DevSecOps 
