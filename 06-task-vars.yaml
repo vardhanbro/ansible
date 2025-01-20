@@ -5,14 +5,13 @@
     COURSE: DevOps
     DURATION: 2 months
     TRAINER: siva
-
   tasks: 1
-    - name: Print the variable 
-      anisble.builtin.debug:
-        msg: "Course is {{ COURSE }},Duration is {{ DURATION }},Trainer is {{ TRAINER }}"
+  - name: Print the variable 
+    anisble.builtin.debug:
+      msg: "Course is {{ COURSE }},Duration is {{ DURATION }},Trainer is {{ TRAINER }}"
   tasks: 2
-    - name: Print variable 
-      vars:
-        COURSE: DevSecOps 
-        anisble.builtin.debug:   
-          msg: "Course is {{ COURSE }},Duration is {{ DURATION }},Trainer is {{ TRAINER }}"
+  - name: Print variable 
+    vars:
+      COURSE: DevSecOps 
+      anisble.builtin.debug:   
+       msg: "Course is {{ COURSE }},Duration is {{ DURATION }},Trainer is {{ TRAINER }}"
