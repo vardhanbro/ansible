@@ -3,10 +3,10 @@
   become: yes #-b root user
   tasks:
     - name: install nginx
-        ansible.builtin.package:
+      ansible.builtin.package:
           - name: nginx
             state: present
     - name: start the nginx      
-        ansible.builtin.service:
+      ansible.builtin.service:
           - name: nginx
             state: started
