@@ -4,5 +4,5 @@
   hosts: web
   tasks: 
     - name: "Print the message"
-    ansible.buitlin.debug:
-    msg: "Hai there is message to display"
+      ansible.buitlin.debug:
+      msg: "Hai there is message to display"
