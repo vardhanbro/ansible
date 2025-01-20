@@ -1,9 +1,9 @@
 
 
--name: playbook
-hosts: web
-tasks:
+- name: playbook
+  hosts: web
+  tasks:
 
-  -name: "Print the message"
-  ansible.buitlin.debug:
-   msg: "Hai there is message to display"
+  - name: "Print the message"
+    ansible.buitlin.debug:
+    msg: "Hai there is message to display"
