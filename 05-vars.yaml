@@ -1,7 +1,7 @@
 - name: variables
   hosts: local
   connection: local
-  vars:
+  vars:  #playlevel
     COURSE: Devops
     DURATION: 2 months
     TRAINER: Siva
