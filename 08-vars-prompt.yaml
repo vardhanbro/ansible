@@ -6,10 +6,10 @@
     prompt: please enter course name
   - name: DURATION
     prompt: please enter duration 
-  - name: TIME
+  - name: TRAINER
     prompt: please enter time
 
   tasks: 
   - name: print course information
     ansible.builtin.debug:
-      msg: "Course is {{ COURSE }}, Duration is {{ DURATION }},Time is {{ TIME }}"
+      msg: "Course is {{ COURSE }}, Duration is {{ DURATION }},Time is {{ TRAINER }}"
