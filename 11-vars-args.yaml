@@ -6,3 +6,6 @@
   - name: print course information
     ansible.builtin.debug:
       msg: "Course is {{ COURSE }}, Duration is {{ DURATION }},Time is {{ TRAINER }}"
+
+  # hit below statement in mobaXterm & also confirm no other local/localhost in inventory 
+  # $ansible-playbook -i inventory.ini 11-vars-args.yaml -e  "COURSE=DevSecOps" -e "TRAINER=siva kumar" -e  "DURATION=6months"
