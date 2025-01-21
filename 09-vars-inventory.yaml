@@ -1,0 +1,7 @@
+- name: Prompt
+  hosts: local
+  connection: local
+  tasks: 
+  - name: print course information
+    ansible.builtin.debug:
+      msg: "Course is {{ COURSE }}, Duration is {{ DURATION }},Time is {{ TRAINER }}"
