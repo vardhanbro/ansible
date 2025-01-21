@@ -4,7 +4,7 @@
   tasks:
   - name: PLAY1 and TASK1
     ansible.builtin.debug:
-        msg: "Hi this is from Play1 and Task1"
+      msg: "Hi this is from Play1 and Task1"
 
 
 - name: PLAY2
@@ -13,4 +13,4 @@
   tasks: 
   - name: Play2 and Task2
     ansible.builtin.debug:
-        msg: "Hi this is from Play2 and Task2"
+      msg: "Hi this is from Play2 and Task2"

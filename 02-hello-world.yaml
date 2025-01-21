@@ -3,6 +3,6 @@
 - name: playbook
   hosts: web
   tasks: 
-    - name: Print the message
-      ansible.builtin.debug:
-        msg: "Hai there is message to display"
+  - name: Print the message
+    ansible.builtin.debug:
+      msg: "Hai there is message to display"
