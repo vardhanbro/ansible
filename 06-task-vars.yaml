@@ -5,8 +5,13 @@
     COURSE: DevOps
     DURATION: 2 months
     TRAINER: siva
+
+  tasks:
+    - name: print variable in play
+      ansible.builtin.debug:
+        msg: "Course is {{ COURSE }},Duration is {{ DURATION }},Trainer is {{ TRAINER }}"
   tasks: 
-   - name: Print variable 
+   - name: Print variables in task  
      vars:
       COURSE: DevSecOps 
      ansible.builtin.debug:   
